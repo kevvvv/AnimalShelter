@@ -1,0 +1,57 @@
+public class Employee{
+
+<<<<<<< HEAD
+	private int employeeId;
+	private String name;
+	
+	public Employee()
+	{
+		this.employeeId = 1;
+		this.name = "Andres Bonifacio";
+=======
+	private int id;
+	private String firstName;
+	
+	public Employee()
+	{
+		this.id = 1;
+		this.firstName = "Juan";
+>>>>>>> 341d781c7e99842c2162ca23d9f6aa9dc314371f
+	}
+	
+	public void setId(int id)
+	{
+		this.id = id;
+	}
+	
+	public int getId()
+	{
+		return id;		
+	}
+	
+<<<<<<< HEAD
+	public void setName(String name)
+	{
+		this.name = name;
+	}
+	
+	public int getName()
+	{
+		return name;		
+	}
+	
+=======
+	public void setFirstName(String firstName)
+	{
+		this.firstName = firstName;
+	}
+	
+	public String getFirstName()
+	{
+		return firstName;		
+	}
+	
+	
+	
+>>>>>>> 341d781c7e99842c2162ca23d9f6aa9dc314371f
+}
